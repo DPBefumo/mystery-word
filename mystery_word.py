@@ -54,6 +54,7 @@ def get_next_guess():
     return user_guess.lower()
 
 #function to keep count of guesses
+#counter not working, not getting a value in wrong_guess
 def calc_guesses_remain(word, guesses):
     """
     Calculate the remaining number of guesses by comparing guess not being in word, then subtracting it from the 8 overall guesses
